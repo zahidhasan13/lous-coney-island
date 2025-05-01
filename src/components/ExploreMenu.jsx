@@ -87,7 +87,7 @@ function ExploreMenu() {
                   </h3>
                   <p className="h-32 font-normal pr-2">{item.description}</p>
                   <div className="flex justify-between items-center mt-4 absolute bottom-4 left-4 right-4">
-                    <span className="text-lg font-bold text-gray-800">
+                    <span className="text-lg font-bold text-gray-800" style={{fontFamily:"Gotham Medium"}}>
                       ${item.price}
                     </span>
                     <button className="bg-[#FFC013] px-4 py-2 rounded-full hover:bg-yellow-500 transition cursor-pointer font-medium">
@@ -132,7 +132,7 @@ function ExploreMenu() {
                     </h3>
                     <p className="h-36 pr-2" style={{fontFamily:"Gotham Book"}}>{item.description}</p>
                     <div className="flex justify-between items-center mt-4 absolute bottom-4 left-4 right-4">
-                      <span className="text-lg font-bold text-gray-800">
+                      <span className="text-lg font-bold text-gray-800" style={{fontFamily:"Gotham Medium"}}>
                         ${item.price}
                       </span>
                       <button className="bg-[#FFC013] px-4 py-2 rounded-full hover:bg-yellow-500 transition cursor-pointer font-medium">

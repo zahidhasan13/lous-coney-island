@@ -26,7 +26,7 @@ function HeroSection() {
         <div>
           <img src={mobileHeroBG} alt="Hero Banner" />
         </div>
-        <div className='bg-yellow-400 p-10'>
+        <div className='bg-yellow-400 p-5'>
             <span className='text-sm uppercase' style={{fontFamily: "Gotham Book"}}>open 24 hours</span>
             <h1 className='text-4xl my-3' style={{fontFamily:"Expend Bold"}}>lou's coney island</h1>
             <p className='text-[0.8rem]' style={{fontFamily:"Gotham Book"}}>

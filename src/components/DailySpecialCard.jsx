@@ -20,7 +20,7 @@ function DailySpecialCard({ item }) {
         <h3 className="text-xl font-bold leading-tight mb-1" style={{fontFamily: "Expend Bold"}}>
             {title}
         </h3>
-        <p className="text-lg font-semibold mb-4">${price}</p>
+        <p className="text-lg font-semibold mb-4" style={{fontFamily:"Gotham Medium"}}>${price}</p>
       </div>
       <div>
       <button className="bg-yellow-400 text-black py-2 px-4 rounded-full font-semibold hover:bg-yellow-300 transition">

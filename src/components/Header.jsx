@@ -28,7 +28,7 @@ const Header = () => {
                         />
                         <a 
                             href="tel:+13135515232" 
-                            className="text-sm md:text-base hover:text-yellow-600 font-bold whitespace-nowrap transition-colors"
+                            className="text-sm md:text-base hover:text-yellow-600 whitespace-nowrap transition-colors" style={{fontFamily: "Gotham Medium"}}
                         >
                             (313) 551-5232
                         </a>
@@ -44,8 +44,8 @@ const Header = () => {
                     </a>
                     
                     {/* Menu button */}
-                    <button className="bg-[#42A672] hover:bg-yellow-600 text-white text-xs sm:text-sm py-1.5 px-3 sm:py-2 sm:px-4 rounded-full shadow-md transition duration-300 ease-in-out flex items-center gap-1 sm:gap-2 cursor-pointer">
-                        <span>Menu</span>
+                    <button className="bg-[#42A672] hover:bg-yellow-600 text-white text-sm py-1.5 px-3 sm:py-2 sm:px-4 rounded-full shadow-md transition duration-300 ease-in-out flex items-center gap-1 sm:gap-2 cursor-pointer">
+                        <span style={{fontFamily: "Gotham Book"}}>Menu</span>
                         <span className="text-sm sm:text-lg font-bold"><BsArrowDownLeft /></span>
                     </button>
                 </div>
