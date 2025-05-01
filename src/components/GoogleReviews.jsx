@@ -99,7 +99,7 @@ function GoogleReviews() {
               <SwiperSlide key={idx}>
                 <div
                 key={idx}
-                className="rounded-xl overflow-hidden border-2 border-gray-200 p-5 h-64"
+                className="rounded-xl overflow-hidden border-2 border-gray-200 p-5 h-72"
               >
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-3">

@@ -121,16 +121,16 @@ function ExploreMenu() {
                   <img
                     src={item.img}
                     alt={item.title}
-                    className="w-full object-cover"
+                    className="w-full h-40 object-cover"
                   />
                   <div className="p-4">
                     <h3
-                      className="text-xl md:text-2xl mb-2"
+                      className="text-lg md:text-2xl mb-2 truncate"
                       style={{ fontFamily: "Expend Bold" }}
                     >
                       {item.title}
                     </h3>
-                    <p className="h-32 font-normal pr-2">{item.description}</p>
+                    <p className="h-36 pr-2" style={{fontFamily:"Gotham Book"}}>{item.description}</p>
                     <div className="flex justify-between items-center mt-4 absolute bottom-4 left-4 right-4">
                       <span className="text-lg font-bold text-gray-800">
                         ${item.price}

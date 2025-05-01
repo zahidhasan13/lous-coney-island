@@ -33,8 +33,8 @@ function HeroSection() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corporis laborum fugit quaerat magni, explicabo quasi doloribus voluptates, fuga autem dicta. Adipisci quam veniam aperiam!
             </p>
             <div className='flex gap-4 mt-5'>
-              <button className='bg-white px-6 py-2 rounded-full cursor-pointer border border-transparent hover:border-black hover:bg-transparent transition duration-300 ease-in-out' style={{fontFamily: "Gotham Medium"}}>Explopre Menu</button>
-              <button className='px-6 py-2 rounded-full cursor-pointer border border-black hover:bg-white hover:border-white transition duration-300 ease-in-out' style={{fontFamily: "Gotham Medium"}}>Get Direction</button>
+              <button className='text-sm bg-white px-6 py-2 rounded-full cursor-pointer border border-transparent hover:border-black hover:bg-transparent transition duration-300 ease-in-out' style={{fontFamily: "Gotham Medium"}}>Explopre Menu</button>
+              <button className='text-sm px-6 py-2 rounded-full cursor-pointer border border-black hover:bg-white hover:border-white transition duration-300 ease-in-out' style={{fontFamily: "Gotham Medium"}}>Get Direction</button>
             </div>
           </div>
       </section>
