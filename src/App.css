@@ -37,3 +37,7 @@
   font-style: normal;
   font-display: swap;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: gray;
+}
